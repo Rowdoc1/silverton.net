@@ -33,7 +33,7 @@ header {
 
 /* Hero background section (image + text to the right) */
 .hero {
-  background-image: url('images/Silverton-cozy-library-scene.jpg');
+  background-image: url('images/Silverton-cozy-Library-scene.jpg');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;

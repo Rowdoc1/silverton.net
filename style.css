@@ -91,17 +91,6 @@ header {
   margin: 0;
 }
 
-/* Global small-screen hero adjustments */
-@media (max-width: 800px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-content {
-    margin-left: 5%;
-    max-width: 90%;
-  }
-}
 
 /* Books page background */
 .section-books {

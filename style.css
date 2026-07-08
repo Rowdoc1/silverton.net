@@ -13,6 +13,14 @@ header {
   padding: 18px 0;
 }
 
+footer {
+  background: #24170f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
 .container {
   width: 92%;
   max-width: 1200px;
@@ -103,7 +111,7 @@ header {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 32px;               /* space between cards so they stand apart */
+  gap: 32px;
   margin-top: 32px;
 }
 

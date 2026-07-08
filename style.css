@@ -199,8 +199,20 @@ footer {
 
 /* Stack cards nicely on small screens */
 @media (max-width: 900px) {
+  @media (max-width: 700px) {
+  .nav {
+    flex-direction: column;    /* stack nav items vertically if you prefer */
+    align-items: flex-start;
+  }
+
+  .nav a {
+    margin-left: 0;
+    margin-top: 8px;
+    font-size: 1.1rem;         /* slightly larger font on small screens */
+  }
+
   .cards {
-    grid-template-columns: 1fr;   /* one card per row on small screens */
+    grid-template-columns: 1fr;  /* ensure cards stack */
   }
 
   .card {
@@ -208,6 +220,6 @@ footer {
   }
 
   .book-cover {
-    max-width: 220px;             /* slightly smaller covers on phones */
+    max-width: 220px;
   }
 }

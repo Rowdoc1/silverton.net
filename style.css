@@ -201,7 +201,7 @@ header {
 /* Stack cards nicely on small screens */
 @media (max-width: 700px) {
   .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;   /* one card per row on small screens */
   }
 
   .card {
@@ -209,6 +209,6 @@ header {
   }
 
   .book-cover {
-    max-width: 220px;
+    max-width: 220px;             /* slightly smaller covers on phones */
   }
 }

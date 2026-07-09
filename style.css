@@ -197,13 +197,7 @@ footer {
   filter: brightness(1.05);
 }
 
-/* Stack cards nicely on small screens */
-@media (max-width: 700px) {
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
+/* Hero adjustments on narrower screens (tablets + phones) */
 @media (max-width: 800px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -214,6 +208,13 @@ footer {
     max-width: 90%;
   }
 }
+
+/* Nav and cards adjustments on small screens (phones) */
+@media (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
   .nav a {
     margin-left: 0;

@@ -71,7 +71,7 @@ footer {
   z-index: 2;
 
   max-width: 520px;
-  margin-left: 45%;
+  margin-left: 40%;
   padding: 40px;
 
   background: rgba(0, 0, 0, 0.45);
@@ -203,6 +203,17 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+
+@media (max-width: 800px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content {
+    margin-left: 5%;
+    max-width: 90%;
+  }
+}
 
   .nav a {
     margin-left: 0;

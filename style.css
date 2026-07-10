@@ -109,6 +109,46 @@ footer {
   padding-bottom: 60px;
 }
 
+/* Author page layout */
+.author-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.author-photo img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.author-text {
+  flex: 1 1 260px;
+}
+
+.author-text h1 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.author-text p {
+  margin: 8px 0;
+}
+
+/* Stack photo and text on small screens */
+@media (max-width: 700px) {
+  .author-layout {
+    flex-direction: column;
+  }
+
+  .author-photo img {
+    max-width: 100%;
+  }
+}
+
 /* Cards container: lays out book cards in a grid */
 .cards {
   display: grid;

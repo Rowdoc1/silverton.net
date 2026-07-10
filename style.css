@@ -21,6 +21,7 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
 }
+
 .container {
   width: 92%;
   max-width: 1200px;
@@ -43,17 +44,17 @@ footer {
 
 /* Hero background section (image + text to the right) */
 .hero {
-  background-image: url('Images/Silverton-cozy-Library-scene.png');
-  background-size: cover;
-  background-position: left center;
-  background-repeat: no-repeat;
+    background-image: url('Images/Silverton-cozy-Library-scene.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
 
-  min-height: 700px;
+    min-height: 700px;
 
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
-  position: relative;
+    position: relative;
 }
 
 /* Optional dark overlay for readability */

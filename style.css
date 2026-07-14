@@ -358,6 +358,35 @@ footer {
   font-size: 0.8rem;
 }
 
+.book-actions {
+  margin-top: 30px;
+}
+
+.release-date {
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  color: #8b6b3f;
+
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  background: #3a2a1e;
+  color: white;
+}
+
+.btn-amazon {
+  background: #b8945a;
+  color: white;
+}
+
 /* Responsive adjustments for signup strip */
 @media (max-width: 700px) {
   .signup-grid {
@@ -376,6 +405,15 @@ footer {
   }
 }
 
+.action-buttons {
+  flex-direction: column;
+}
+
+.action-buttons .btn {
+  width: 100%;
+  text-align: center;
+}
+
 /* Hero adjustments on narrower screens (tablets + phones) */
 @media (max-width: 800px) {
   .hero h1 {
@@ -387,6 +425,8 @@ footer {
     max-width: 90%;
   }
 }
+
+
 
 /* Nav and cards adjustments on small screens (phones) */
 @media (max-width: 700px) {

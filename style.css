@@ -238,6 +238,62 @@ footer {
   filter: brightness(1.05);
 }
 
+.featured-book {
+  background: #f7f4ef;
+  padding: 80px 0;
+}
+
+.featured-book-container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  padding: 0 20px;
+}
+
+.featured-book-cover img {
+  width: 280px;
+
+  border-radius: 6px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+.featured-book-text {
+  flex: 1;
+}
+
+.featured-label {
+  color: #8b6b3f;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.featured-book h2 {
+  font-size: 2.5rem;
+
+  margin-top: 0;
+
+  margin-bottom: 20px;
+}
+
+.featured-tagline {
+  font-size: 1.25rem;
+
+  font-style: italic;
+
+  margin-bottom: 20px;
+}
+
 /* Signup & contact strip */
 .signup-strip {
   background: #24170f;           /* same as header/footer for continuity */

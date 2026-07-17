@@ -298,6 +298,49 @@ footer {
   margin-bottom: 20px;
 }
 
+.featured-painting-small {
+  width: 280px;
+  margin-top: 25px;
+
+  border-radius: 6px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,.20);
+}
+
+.featured-painting {
+  background: #efe8db;
+  padding: 80px 0;
+}
+
+.featured-painting-container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  padding: 0 20px;
+}
+
+.featured-painting-image img {
+  width: 350px;
+  max-width: 100%;
+
+  border-radius: 6px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+.featured-painting-text {
+  flex: 1;
+}
+
+.featured-painting-text h2 {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
 /* Signup & contact strip */
 .signup-strip {
   background: #24170f;           /* same as header/footer for continuity */

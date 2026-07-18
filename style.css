@@ -107,6 +107,19 @@ footer {
 }
 
 
+/* Wall of books background */
+.section-books-wall {
+  
+
+  background: #e4d4ad;   /* slightly darker / warmer */
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+
+
+}
+
+
 /* Books page background */
 .section-books {
   background: #e4d4ad;   /* slightly darker / warmer */
@@ -307,6 +320,34 @@ footer {
   box-shadow: 0 8px 25px rgba(0,0,0,.20);
 }
 
+.featured-painting-large {
+  width: 900px;
+  margin-top: 25px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,.20);
+}
+
+.section-books-wall {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.featured-painting-wall {
+  text-align: center;
+}
+
+.featured-painting-large {
+  width: 900px;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,.20);
+}
+
 .featured-painting {
   background: #efe8db;
   padding: 80px 0;
@@ -429,6 +470,11 @@ footer {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+.signup-contact .btn-secondary {
+  background: white;
+  color: #24170f;
 }
 
 .btn-secondary {

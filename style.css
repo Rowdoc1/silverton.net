@@ -221,6 +221,10 @@ footer {
   gap: 10px;
 }
 
+.card-actions .learn-more {
+  flex-basis: 100%;
+}
+
 /* Base button style (shape and padding) */
 .btn {
   display: inline-block;
